@@ -1,0 +1,8 @@
+.MentoComunityFullBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 120px;
+  height: 800px;
+  overflow: auto;
+}

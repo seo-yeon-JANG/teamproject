@@ -1,0 +1,29 @@
+.formContainer {
+  width: 100%;
+  height: 50%;
+}
+.formContainer input {
+  font: inherit;
+}
+.myDietProcessContainer {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin: 0 auto;
+}
+.myDietProcessContainer hr {
+  height: 1px;
+  background-color: black;
+}
+.imgclick {
+  width: 100%;
+}
+/* .progress {
+  margin-top: 10px;
+  font-size: 20px;
+} */
+.box1 {
+  display: flex;
+  padding-top: 10px;
+}

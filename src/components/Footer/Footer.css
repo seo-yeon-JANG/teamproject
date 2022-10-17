@@ -1,0 +1,9 @@
+.footerDiv {
+  width: 100%;
+  height: 150px;
+  background-color: gray;
+}
+.footerDiv p {
+  color: black;
+  padding: 50px;
+}

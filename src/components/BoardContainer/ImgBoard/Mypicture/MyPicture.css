@@ -1,0 +1,23 @@
+.mypictureContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.imgBox {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+  font-size: 40px;
+}
+.mypicture {
+  margin: 0 auto;
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+.dummyImg {
+  margin: 0 auto;
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}

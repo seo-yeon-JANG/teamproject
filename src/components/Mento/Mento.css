@@ -1,0 +1,71 @@
+.mentoComunityMain {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  text-align: right;
+}
+.mentoringUserBox {
+  height: auto;
+}
+.mentoComunityMainContents {
+  height: 300px;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px #333;
+  background: linear-gradient(45deg, blue, white);
+}
+.mentComunityDiv {
+  height: 85%;
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid blue;
+  background-color: whitesmoke;
+  color: black;
+  overflow: auto;
+}
+.mentoComunityChatContainer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+.mentoCoumunityChat {
+  width: 80%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.userMentoringProfile {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-bottom: 0.7rem;
+  margin-right: 5px;
+}
+.mentoringTextBox {
+  background-color: #333;
+  color: white;
+  width: auto;
+  padding: 0.3rem;
+  border-radius: 6px;
+  border: 2px solid white;
+}
+.callMento {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 2px solid #333;
+}
+.selectMentoOptionBox {
+  position: relative;
+}
+.selectMentoOptionBoxSelect {
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0.2rem;
+  padding: 0.3rem;
+  border-radius: 4px;
+  font: inherit;
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 6px blue;
+}

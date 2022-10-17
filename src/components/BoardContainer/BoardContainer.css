@@ -1,0 +1,9 @@
+.BoardContainer {
+  position: relative;
+  margin-left: 3rem;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px black;
+  background-color: white;
+  width: 40%;
+  height: 720px;
+}

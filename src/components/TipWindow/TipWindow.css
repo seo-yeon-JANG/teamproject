@@ -1,0 +1,29 @@
+.absoluteTip {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 217px;
+  text-align: right;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-shadow: none;
+}
+.noShowTipBox {
+  display: none;
+}
+.showTipBox {
+  background-color: rgba(4, 26, 13, 0.712);
+  display: block;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 2px 2px 5px #333;
+  text-align: center;
+}
+.questionTipImg {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+.TipLi {
+  font-size: 1.3rem;
+}

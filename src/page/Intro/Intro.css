@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'ImcreSoojin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: whitesmoke;
+}
+.pBox {
+  background-color: rgba(100, 37, 225, 0.05);
+  font-family: 'ImcreSoojin';
+  width: 90%;
+  margin: 0 auto;
+}
+#backgroundImg {
+  padding-top: 80px;
+  width: 100%;
+}
+.background-Img {
+  height: 500px;
+  background-image: url('/Img/backImg.png');
+  background-size: cover;
+}
+.dietinfo {
+  margin: 0 auto;
+  font-size: 2rem;
+}
+.chucheon-container {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.fixedContent {
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: rgb(191, 215, 96);
+  border: 1px solid green;
+  top: 15rem;
+  right: 1rem;
+  position: fixed;
+}
+.plusBox {
+  width: 3rem;
+  height: 4rem;
+  font-size: 15px;
+}
+.introH2 {
+  padding: 1rem;
+  font-size: 30px;
+  width: 100%;
+}
+#section3 {
+  width: 100%;
+  text-align: center;
+}
+.info1 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+.diteinfo {
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+.youtub-containe {
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1024px) {
+  .background-Img {
+    background-image: url('/Img/backImgMiddle.png');
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .container {
+    width: 50%;
+  }
+  .container img {
+    width: 200px;
+    height: 200px;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .containerimg {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 786px) {
+  main {
+    width: 100%;
+  }
+
+  .youConPlayer1 {
+    display: none;
+  }
+  .youConPlayer2 {
+    width: 50%;
+  }
+  .youConPlayer3 {
+    width: 50%;
+  }
+  .chucheon-container {
+    flex-direction: row;
+  }
+  .container img {
+    width: 100px;
+    height: 100px;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .pBox {
+    width: 100%;
+  }
+  .background-Img {
+    background-image: url('/Img/backImgMin.png');
+  }
+  .containerimg {
+    width: 100px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .youConPlayer2 {
+    display: none;
+  }
+}

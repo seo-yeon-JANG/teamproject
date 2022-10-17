@@ -1,0 +1,76 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  height: 400px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header {
+  background: #8acefc;
+  padding: 1rem;
+}
+
+.header h2 {
+  margin: 0;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  height: 80%;
+}
+.content input {
+  margin: 0 auto;
+  width: 80%;
+}
+.actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  font: inherit;
+  border: 1px solid #8acefc;
+  background: #8acefc;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: #d487e3;
+  border-color: #d487e3;
+}
+
+.button:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}

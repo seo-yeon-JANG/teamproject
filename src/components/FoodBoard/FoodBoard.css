@@ -1,0 +1,17 @@
+.Food {
+  margin-top: 1rem;
+  width: 100%;
+  /* padding-bottom: 2rem; */
+}
+.diet {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.Food h3 {
+  font-size: 1.7rem;
+}
+.calculateBtn {
+  margin-top: 1rem;
+  font: inherit;
+  width: 40%;
+}

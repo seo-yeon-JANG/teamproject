@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'ImcreSoojin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.CalendarContainer {
+  width: 500px;
+  height: 720px;
+  min-width: 30%;
+  display: inline-block;
+}
+.react-calendar {
+  width: 100%;
+  font: inherit;
+  font-size: 2rem;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 2px 2px 6px #333;
+  margin-bottom: 0.3rem;
+}
+.inmydiary {
+  font-family: 'ImcreSoojin';
+  position: relative;
+  border: 1px solid #9cd2dc;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: aliceblue;
+  color: #1e6b7b;
+}
+.inmydiary:hover {
+  letter-spacing: 2px;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+.CalendarContainer h3 {
+  padding: 10px;
+}
+.water li {
+  padding-right: 10px;
+  display: inline;
+}
